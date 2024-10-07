@@ -1,8 +1,6 @@
 #!/bin/bash
-
 # Set the Internal Field Separator (IFS) to ":"
 IFS=':'
-
 # Read the /etc/passwd file line by line
 while read -r username password userid groupid info homedir shell
 do
